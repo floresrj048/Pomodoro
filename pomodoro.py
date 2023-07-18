@@ -4,8 +4,8 @@ from tkinter import *
 from tkinter import font
 import tkinter as tk
 
-GLOBAL_POMODORO = 7
-GLOBAL_BREAKTIME = 5
+GLOBAL_POMODORO = 1500
+GLOBAL_BREAKTIME = 300
 time_remaining = datetime.timedelta(seconds=GLOBAL_POMODORO)
 is_paused = False
 main_cycle=True
@@ -50,7 +50,7 @@ def countdown(length):
         #represents time left
         time_remaining = length
         #prints time left
-        print(time_remaining, end="\r")
+        #print(time_remaining, end="\r")
         #update value on window
         label['text'] = time_remaining
 
