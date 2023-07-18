@@ -40,8 +40,7 @@ The program has 3 button functions, Start, Pause, and Reset. Start will begin th
 
 ## Features
 
-- List of key features or functionalities of the project.
-- Highlight the main aspects that differentiate your project.
+- Will pop up to alert you that the respective timer has finished
 
 ## Contributing
 
